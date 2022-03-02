@@ -1,0 +1,107 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {}
+		}, 
+		{
+			"path": "pages/home/live",
+			"style": {}
+		},
+		{
+			"path": "pages/home/livedetail",
+			"style": {}
+		},
+		{
+			"path": "pages/activity/index",
+			"style": {}
+		},
+		{
+			"path": "pages/activity/hall",
+			"style": {}
+		},
+		{
+			"path": "pages/classify/index",
+			"style": {}
+		},
+		{
+			"path": "pages/classify/detail",
+			"style": {}
+		},
+		{
+			"path": "pages/classify/search",
+			"style": {}
+		},
+		{
+			"path": "pages/classify/list",
+			"style": {}
+		},
+		{
+			"path": "pages/classify/cate",
+			"style": {}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {}
+		},
+		{
+			"path": "pages/my/setting",
+			"style": {}
+		},
+		{
+			"path": "pages/my/update_pwd",
+			"style": {}
+		},
+		{
+			"path": "pages/my/login",
+			"style": {}
+		},
+		{
+			"path": "pages/my/register",
+			"style": {}
+		},
+		{
+			"path": "pages/my/forget_pwd",
+			"style": {}
+		},
+		{
+			"path": "pages/press/list",
+			"style": {}
+		},
+		{
+			"path": "pages/press/detail",
+			"style": {}
+		},
+		{
+			"path": "pages/notice/list",
+			"style": {}
+		},
+		{
+			"path": "pages/notice/detail",
+			"style": {}
+		}
+	],
+	"globalStyle": {
+		"mp-alipay": {
+			/* 支付宝小程序特有相关 */
+			"transparentTitle": "always",
+			"allowsBounceVertical": "NO"
+		},
+		"navigationBarBackgroundColor": "#0081ff",
+		"navigationBarTitleText": "云书展",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "white"
+	},
+	"usingComponts": true,
+		"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+				"name": "启动页面", //模式名称
+				"path": "pages/home/index", //启动页面
+				"query": "" //启动参数
+			}
+		]
+	}
+
+}

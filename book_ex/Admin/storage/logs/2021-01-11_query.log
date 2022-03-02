@@ -1,0 +1,12 @@
+2021-01-11 09:16:59: select * from `users` where `id` = 1 limit 1
+
+2021-01-11 09:16:59: select * from `users` where `id` = 1 limit 1
+
+2021-01-11 09:16:59: select * from `adv_position` where `ap_isuse` = 1 and `ap_name` = 'PC_积分商城首页' limit 1
+
+2021-01-11 09:16:59: select * from `integral_goods` where (`goods_status` = 1) order by `live_status` desc, `is_hot` desc, `id` desc limit 5
+
+2021-01-11 09:16:59: select * from `integral_class`
+
+2021-01-11 09:16:59: select * from `integral_goods` where (`cid` = 2 and `goods_status` = 1)
+

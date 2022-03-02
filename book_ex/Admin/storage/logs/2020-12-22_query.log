@@ -1,0 +1,252 @@
+2020-12-22 09:18:53: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:18:54: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:18:54: select * from `adv_position` where `ap_isuse` = 1 and `ap_name` = 'PC_积分商城首页' limit 1
+
+2020-12-22 09:18:54: select * from `integral_goods` where (`goods_status` = 1) order by `live_status` desc, `is_hot` desc, `id` desc limit 5
+
+2020-12-22 09:18:54: select * from `integral_class`
+
+2020-12-22 09:18:54: select * from `integral_goods` where (`cid` = 2 and `goods_status` = 1)
+
+2020-12-22 09:18:54: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:18:54: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:18:54: select * from `adv_position` where `ap_isuse` = 1 and `ap_name` = 'PC_积分商城首页' limit 1
+
+2020-12-22 09:18:54: select * from `integral_goods` where (`goods_status` = 1) order by `live_status` desc, `is_hot` desc, `id` desc limit 5
+
+2020-12-22 09:18:54: select * from `integral_class`
+
+2020-12-22 09:18:54: select * from `integral_goods` where (`cid` = 2 and `goods_status` = 1)
+
+2020-12-22 09:19:09: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:19:10: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:19:10: select * from `adv_position` where `ap_isuse` = 1 and `ap_name` = 'PC_积分商城首页' limit 1
+
+2020-12-22 09:19:10: select * from `integral_goods` where (`goods_status` = 1) order by `live_status` desc, `is_hot` desc, `id` desc limit 5
+
+2020-12-22 09:19:10: select * from `integral_class`
+
+2020-12-22 09:19:10: select * from `integral_goods` where (`cid` = 2 and `goods_status` = 1)
+
+2020-12-22 09:27:44: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:27:45: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:27:45: select * from `adv_position` where `ap_isuse` = 1 and `ap_name` = 'PC_积分商城首页' limit 1
+
+2020-12-22 09:27:45: select * from `integral_goods` where (`goods_status` = 1) order by `live_status` desc, `is_hot` desc, `id` desc limit 5
+
+2020-12-22 09:27:45: select * from `integral_class`
+
+2020-12-22 09:27:45: select * from `integral_goods` where (`cid` = 2 and `goods_status` = 1)
+
+2020-12-22 09:39:09: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:39:09: select count(*) as aggregate from `integral_goods`
+
+2020-12-22 09:39:09: select * from `integral_goods` order by `live_status` desc, `is_hot` desc, `id` desc limit 40 offset 0
+
+2020-12-22 09:40:16: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:40:16: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:40:16: select * from `adv_position` where `ap_isuse` = 1 and `ap_name` = 'PC_积分商城首页' limit 1
+
+2020-12-22 09:40:16: select * from `integral_goods` where (`goods_status` = 1) order by `live_status` desc, `is_hot` desc, `id` desc limit 5
+
+2020-12-22 09:40:16: select * from `integral_class`
+
+2020-12-22 09:40:16: select * from `integral_goods` where (`cid` = 2 and `goods_status` = 1)
+
+2020-12-22 09:43:13: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:14: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:14: select * from `adv_position` where `ap_isuse` = 1 and `ap_name` = 'PC_积分商城首页' limit 1
+
+2020-12-22 09:43:14: select * from `integral_goods` where (`goods_status` = 1) order by `live_status` desc, `is_hot` desc, `id` desc limit 5
+
+2020-12-22 09:43:14: select * from `integral_class`
+
+2020-12-22 09:43:14: select * from `integral_goods` where (`cid` = 2 and `goods_status` = 1)
+
+2020-12-22 09:43:29: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:29: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:29: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:29: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:29: select `roles`.*, `user_link_role`.`user_id` as `pivot_user_id`, `user_link_role`.`role_id` as `pivot_role_id` from `roles` inner join `user_link_role` on `roles`.`id` = `user_link_role`.`role_id` where `user_link_role`.`user_id` in (1)
+
+2020-12-22 09:43:29: select * from `roles` where `id` = 1 limit 1
+
+2020-12-22 09:43:29: select `hooks`.*, `role_link_hook`.`role_id` as `pivot_role_id`, `role_link_hook`.`hook_id` as `pivot_hook_id` from `hooks` inner join `role_link_hook` on `hooks`.`id` = `role_link_hook`.`hook_id` where `role_link_hook`.`role_id` in (1)
+
+2020-12-22 09:43:30: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:30: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:30: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:30: select `roles`.*, `user_link_role`.`user_id` as `pivot_user_id`, `user_link_role`.`role_id` as `pivot_role_id` from `roles` inner join `user_link_role` on `roles`.`id` = `user_link_role`.`role_id` where `user_link_role`.`user_id` in (1)
+
+2020-12-22 09:43:30: select * from `roles` where `id` = 1 limit 1
+
+2020-12-22 09:43:30: select `hooks`.*, `role_link_hook`.`role_id` as `pivot_role_id`, `role_link_hook`.`hook_id` as `pivot_hook_id` from `hooks` inner join `role_link_hook` on `hooks`.`id` = `role_link_hook`.`hook_id` where `role_link_hook`.`role_id` in (1)
+
+2020-12-22 09:43:30: select * from `users` where `users`.`id` = 1 limit 1
+
+2020-12-22 09:43:30: select `roles`.*, `user_link_role`.`user_id` as `pivot_user_id`, `user_link_role`.`role_id` as `pivot_role_id` from `roles` inner join `user_link_role` on `roles`.`id` = `user_link_role`.`role_id` where `user_link_role`.`user_id` = 1
+
+2020-12-22 09:43:30: select * from `roles` where `id` in (1)
+
+2020-12-22 09:43:30: select `menus`.*, `role_link_menu`.`role_id` as `pivot_role_id`, `role_link_menu`.`menu_id` as `pivot_menu_id`, `role_link_menu`.`commands` as `pivot_commands` from `menus` inner join `role_link_menu` on `menus`.`id` = `role_link_menu`.`menu_id` where `role_link_menu`.`role_id` = 1
+
+2020-12-22 09:43:30: select * from `menus` where `id` in (7, 8, 10, 18, 19, 20, 21, 22, 23, 33, 36, 37, 38, 39, 40, 46, 47, 48, 49, 52, 53, 54, 56, 58, 60, 63, 72, 73, 28, 29, 6, 12, 13, 16, 71, 70, 89, 90) and `is_type` = 0 order by `is_sort` asc
+
+2020-12-22 09:43:30: select * from `menus` where `id` in (7, 8, 10, 18, 19, 20, 21, 22, 23, 33, 36, 37, 38, 39, 40, 46, 47, 48, 49, 52, 53, 54, 56, 58, 60, 63, 72, 73, 28, 29, 6, 12, 13, 16, 71, 70, 89, 90) and `is_type` = 0 and `id` in (7, 8, 10, 18, 19, 20, 21, 22, 23, 33, 36, 37, 38, 39, 40, 46, 47, 48, 49, 52, 53, 54, 56, 58, 60, 63, 72, 73, 28, 29, 6, 12, 13, 16, 71, 70, 89, 90) order by `is_sort` asc
+
+2020-12-22 09:43:30: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:30: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:30: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:30: select `roles`.*, `user_link_role`.`user_id` as `pivot_user_id`, `user_link_role`.`role_id` as `pivot_role_id` from `roles` inner join `user_link_role` on `roles`.`id` = `user_link_role`.`role_id` where `user_link_role`.`user_id` in (1)
+
+2020-12-22 09:43:30: select * from `roles` where `id` = 1 limit 1
+
+2020-12-22 09:43:30: select `hooks`.*, `role_link_hook`.`role_id` as `pivot_role_id`, `role_link_hook`.`hook_id` as `pivot_hook_id` from `hooks` inner join `role_link_hook` on `hooks`.`id` = `role_link_hook`.`hook_id` where `role_link_hook`.`role_id` in (1)
+
+2020-12-22 09:43:30: select sum(`total_price`) as aggregate from `orders`
+
+2020-12-22 09:43:30: select sum(`total_price`) as aggregate from `orders` where `pay_time` > 1608566400 and `pay_time` < 1608652799
+
+2020-12-22 09:43:30: select count(*) as aggregate from `orders` where (`pay_status` = 0 and `order_status` < 2 and `refund_status` = 0)
+
+2020-12-22 09:43:30: select count(*) as aggregate from `orders` where (`pay_status` = 1 and `delivery_status` = 0 and `refund_status` = 0)
+
+2020-12-22 09:43:30: select count(*) as aggregate from `orders` where (`pay_status` = 1 and `delivery_status` = 1 and `comment_status` = 1 and `order_status` = 1 and `refund_status` = 0)
+
+2020-12-22 09:43:30: select `users`, `format_time` from `crontab_day` where `format_time` in ('2020-12-20', '2020-12-21', '2020-12-22', '2020-12-23', '2020-12-24', '2020-12-25', '2020-12-26') group by `format_time` order by `id` asc
+
+2020-12-22 09:43:30: select `users`, `format_time` from `crontab_day` where `format_time` in ('2020-12-14', '2020-12-15', '2020-12-16', '2020-12-17', '2020-12-18', '2020-12-19', '2020-12-20') group by `format_time` order by `id` asc
+
+2020-12-22 09:43:30: select `price`, `format_time` from `crontab_month` where `format_time` in ('2020-01-01', '2020-02-01', '2020-03-01', '2020-04-01', '2020-05-01', '2020-06-01', '2020-07-01', '2020-08-01', '2020-09-01', '2020-10-01', '2020-11-01', '2020-12-01') group by `format_time` order by `id` asc
+
+2020-12-22 09:43:30: select (select sum(price) from crontab_day as B where B.user_id = crontab_day.user_id) as sum_total,crontab_day.user_id from `crontab_day` group by `user_id` order by `sum_total` desc limit 6
+
+2020-12-22 09:43:30: select * from `store` where `user_id` = 1 limit 1
+
+2020-12-22 09:43:46: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:46: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:46: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:46: select `roles`.*, `user_link_role`.`user_id` as `pivot_user_id`, `user_link_role`.`role_id` as `pivot_role_id` from `roles` inner join `user_link_role` on `roles`.`id` = `user_link_role`.`role_id` where `user_link_role`.`user_id` in (1)
+
+2020-12-22 09:43:46: select * from `roles` where `id` = 1 limit 1
+
+2020-12-22 09:43:46: select `hooks`.*, `role_link_hook`.`role_id` as `pivot_role_id`, `role_link_hook`.`hook_id` as `pivot_hook_id` from `hooks` inner join `role_link_hook` on `hooks`.`id` = `role_link_hook`.`hook_id` where `role_link_hook`.`role_id` in (1)
+
+2020-12-22 09:43:46: select * from `menus` where `url` = '/Admin/integral/add_live_video_s' limit 1
+
+2020-12-22 09:43:46: select * from `menus` where `id` = 28 limit 1
+
+2020-12-22 09:43:47: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:47: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:47: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:47: select `roles`.*, `user_link_role`.`user_id` as `pivot_user_id`, `user_link_role`.`role_id` as `pivot_role_id` from `roles` inner join `user_link_role` on `roles`.`id` = `user_link_role`.`role_id` where `user_link_role`.`user_id` in (1)
+
+2020-12-22 09:43:47: select * from `roles` where `id` = 1 limit 1
+
+2020-12-22 09:43:47: select `hooks`.*, `role_link_hook`.`role_id` as `pivot_role_id`, `role_link_hook`.`hook_id` as `pivot_hook_id` from `hooks` inner join `role_link_hook` on `hooks`.`id` = `role_link_hook`.`hook_id` where `role_link_hook`.`role_id` in (1)
+
+2020-12-22 09:43:47: select * from `integral_class`
+
+2020-12-22 09:43:48: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:48: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:48: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:48: select `roles`.*, `user_link_role`.`user_id` as `pivot_user_id`, `user_link_role`.`role_id` as `pivot_role_id` from `roles` inner join `user_link_role` on `roles`.`id` = `user_link_role`.`role_id` where `user_link_role`.`user_id` in (1)
+
+2020-12-22 09:43:48: select * from `roles` where `id` = 1 limit 1
+
+2020-12-22 09:43:48: select `hooks`.*, `role_link_hook`.`role_id` as `pivot_role_id`, `role_link_hook`.`hook_id` as `pivot_hook_id` from `hooks` inner join `role_link_hook` on `hooks`.`id` = `role_link_hook`.`hook_id` where `role_link_hook`.`role_id` in (1)
+
+2020-12-22 09:43:48: select * from `menus` where `url` = '/Admin/integral/index' limit 1
+
+2020-12-22 09:43:48: select * from `menus` where `id` = 28 limit 1
+
+2020-12-22 09:43:48: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:48: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:48: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:48: select `roles`.*, `user_link_role`.`user_id` as `pivot_user_id`, `user_link_role`.`role_id` as `pivot_role_id` from `roles` inner join `user_link_role` on `roles`.`id` = `user_link_role`.`role_id` where `user_link_role`.`user_id` in (1)
+
+2020-12-22 09:43:48: select * from `roles` where `id` = 1 limit 1
+
+2020-12-22 09:43:48: select `hooks`.*, `role_link_hook`.`role_id` as `pivot_role_id`, `role_link_hook`.`hook_id` as `pivot_hook_id` from `hooks` inner join `role_link_hook` on `hooks`.`id` = `role_link_hook`.`hook_id` where `role_link_hook`.`role_id` in (1)
+
+2020-12-22 09:43:48: select count(*) as aggregate from `integral_goods`
+
+2020-12-22 09:43:48: select * from `integral_goods` order by `id` desc limit 20 offset 0
+
+2020-12-22 09:43:52: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:52: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:52: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:52: select `roles`.*, `user_link_role`.`user_id` as `pivot_user_id`, `user_link_role`.`role_id` as `pivot_role_id` from `roles` inner join `user_link_role` on `roles`.`id` = `user_link_role`.`role_id` where `user_link_role`.`user_id` in (1)
+
+2020-12-22 09:43:52: select * from `roles` where `id` = 1 limit 1
+
+2020-12-22 09:43:52: select `hooks`.*, `role_link_hook`.`role_id` as `pivot_role_id`, `role_link_hook`.`hook_id` as `pivot_hook_id` from `hooks` inner join `role_link_hook` on `hooks`.`id` = `role_link_hook`.`hook_id` where `role_link_hook`.`role_id` in (1)
+
+2020-12-22 09:43:52: select * from `menus` where `url` = '/Admin/integral/add_live_video_s' limit 1
+
+2020-12-22 09:43:52: select * from `menus` where `id` = 28 limit 1
+
+2020-12-22 09:43:53: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:53: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:53: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 09:43:53: select `roles`.*, `user_link_role`.`user_id` as `pivot_user_id`, `user_link_role`.`role_id` as `pivot_role_id` from `roles` inner join `user_link_role` on `roles`.`id` = `user_link_role`.`role_id` where `user_link_role`.`user_id` in (1)
+
+2020-12-22 09:43:53: select * from `roles` where `id` = 1 limit 1
+
+2020-12-22 09:43:53: select `hooks`.*, `role_link_hook`.`role_id` as `pivot_role_id`, `role_link_hook`.`hook_id` as `pivot_hook_id` from `hooks` inner join `role_link_hook` on `hooks`.`id` = `role_link_hook`.`hook_id` where `role_link_hook`.`role_id` in (1)
+
+2020-12-22 09:43:53: select * from `integral_class`
+
+2020-12-22 15:24:46: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 15:24:47: select * from `users` where `id` = 1 limit 1
+
+2020-12-22 15:24:47: select * from `adv_position` where `ap_isuse` = 1 and `ap_name` = 'PC_积分商城首页' limit 1
+
+2020-12-22 15:24:47: select * from `integral_goods` where (`goods_status` = 1) order by `live_status` desc, `is_hot` desc, `id` desc limit 5
+
+2020-12-22 15:24:47: select * from `integral_class`
+
+2020-12-22 15:24:47: select * from `integral_goods` where (`cid` = 2 and `goods_status` = 1)
+

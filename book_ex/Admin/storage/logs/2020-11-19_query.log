@@ -1,0 +1,122 @@
+2020-11-19 17:47:12: select * from `adv_position` where `ap_isuse` = 1 and `ap_name` = 'PC_首页幻灯片下广告' limit 1
+
+2020-11-19 17:47:12: select * from `adv_position` where `ap_isuse` = 1 and `ap_name` = 'PC_首页幻灯片' limit 1
+
+2020-11-19 17:47:12: select * from `goods_class` order by `is_sort` asc
+
+2020-11-19 17:47:12: select * from `adv_position` where `ap_isuse` = 1 and `ap_name` = 'PC_首页版权底部' limit 1
+
+2020-11-19 17:47:12: select * from `config` where `name` in ('web_name', 'web_url', 'logo', 'mobile')
+
+2020-11-19 17:47:12: select * from `goods_brand` limit 12
+
+2020-11-19 17:47:12: select * from `config`
+
+2020-11-19 17:47:12: select * from `seckill` where `enable` = 1 limit 1
+
+2020-11-19 17:47:12: select * from `adv_position` where `ap_isuse` = 1 and `ap_name` = 'PC_首页左导航栏' limit 1
+
+2020-11-19 17:47:12: select * from `seckill_goods` where `status` = 1 and `sid` = 15 limit 4
+
+2020-11-19 17:47:13: select * from `goods_class` where `pid` = 0
+
+2020-11-19 17:47:13: select `id`, `pid` from `goods_class` where `id` in (1)
+
+2020-11-19 17:47:13: select `id`, `pid` from `goods_class` where `pid` in (1)
+
+2020-11-19 17:47:13: select `id`, `pid` from `goods_class` where 0 = 1
+
+2020-11-19 17:47:13: select * from `goods` where (`is_index` = 1) and (`goods_status` = 1 and `goods_verify` = 1) and 0 = 1 limit 8
+
+2020-11-19 17:47:13: select `id`, `pid` from `goods_class` where `id` in (2)
+
+2020-11-19 17:47:13: select `id`, `pid` from `goods_class` where `pid` in (2)
+
+2020-11-19 17:47:13: select `id`, `pid` from `goods_class` where 0 = 1
+
+2020-11-19 17:47:13: select * from `goods` where (`is_index` = 1) and (`goods_status` = 1 and `goods_verify` = 1) and 0 = 1 limit 8
+
+2020-11-19 17:47:13: select `id`, `pid` from `goods_class` where `id` in (3)
+
+2020-11-19 17:47:13: select `id`, `pid` from `goods_class` where `pid` in (3)
+
+2020-11-19 17:47:13: select `id`, `pid` from `goods_class` where 0 = 1
+
+2020-11-19 17:47:14: select * from `goods` where (`is_index` = 1) and (`goods_status` = 1 and `goods_verify` = 1) and 0 = 1 limit 8
+
+2020-11-19 17:47:14: select `id`, `pid` from `goods_class` where `id` in (4)
+
+2020-11-19 17:47:14: select `id`, `pid` from `goods_class` where `pid` in (4)
+
+2020-11-19 17:47:14: select `id`, `pid` from `goods_class` where 0 = 1
+
+2020-11-19 17:47:14: select * from `goods` where (`is_index` = 1) and (`goods_status` = 1 and `goods_verify` = 1) and 0 = 1 limit 8
+
+2020-11-19 17:47:14: select `id`, `pid` from `goods_class` where `id` in (5)
+
+2020-11-19 17:47:14: select `id`, `pid` from `goods_class` where `pid` in (5)
+
+2020-11-19 17:47:14: select `id`, `pid` from `goods_class` where 0 = 1
+
+2020-11-19 17:47:14: select * from `goods` where (`is_index` = 1) and (`goods_status` = 1 and `goods_verify` = 1) and 0 = 1 limit 8
+
+2020-11-19 17:47:14: select `id`, `pid` from `goods_class` where `id` in (6)
+
+2020-11-19 17:47:14: select `id`, `pid` from `goods_class` where `pid` in (6)
+
+2020-11-19 17:47:14: select `id`, `pid` from `goods_class` where 0 = 1
+
+2020-11-19 17:47:15: select * from `goods` where (`is_index` = 1) and (`goods_status` = 1 and `goods_verify` = 1) and 0 = 1 limit 8
+
+2020-11-19 17:47:15: select `id`, `pid` from `goods_class` where `id` in (67)
+
+2020-11-19 17:47:15: select `id`, `pid` from `goods_class` where `pid` in (67)
+
+2020-11-19 17:47:15: select `id`, `pid` from `goods_class` where 0 = 1
+
+2020-11-19 17:47:15: select * from `goods` where (`is_index` = 1) and (`goods_status` = 1 and `goods_verify` = 1) and 0 = 1 limit 8
+
+2020-11-19 17:47:15: select `id`, `pid` from `goods_class` where `id` in (68)
+
+2020-11-19 17:47:15: select `id`, `pid` from `goods_class` where `pid` in (68)
+
+2020-11-19 17:47:15: select `id`, `pid` from `goods_class` where 0 = 1
+
+2020-11-19 17:47:15: select * from `goods` where (`is_index` = 1) and (`goods_status` = 1 and `goods_verify` = 1) and 0 = 1 limit 8
+
+2020-11-19 17:47:15: select `id`, `pid` from `goods_class` where `id` in (69)
+
+2020-11-19 17:47:15: select `id`, `pid` from `goods_class` where `pid` in (69)
+
+2020-11-19 17:47:15: select `id`, `pid` from `goods_class` where 0 = 1
+
+2020-11-19 17:47:15: select * from `goods` where (`is_index` = 1) and (`goods_status` = 1 and `goods_verify` = 1) and 0 = 1 limit 8
+
+2020-11-19 17:47:16: select `id`, `pid` from `goods_class` where `id` in (70)
+
+2020-11-19 17:47:16: select `id`, `pid` from `goods_class` where `pid` in (70)
+
+2020-11-19 17:47:16: select `id`, `pid` from `goods_class` where 0 = 1
+
+2020-11-19 17:47:16: select * from `goods` where (`is_index` = 1) and (`goods_status` = 1 and `goods_verify` = 1) and 0 = 1 limit 8
+
+2020-11-19 17:47:16: select `id`, `pid` from `goods_class` where `id` in (71)
+
+2020-11-19 17:47:16: select `id`, `pid` from `goods_class` where `pid` in (71)
+
+2020-11-19 17:47:16: select `id`, `pid` from `goods_class` where 0 = 1
+
+2020-11-19 17:47:16: select * from `goods` where (`is_index` = 1) and (`goods_status` = 1 and `goods_verify` = 1) and 0 = 1 limit 8
+
+2020-11-19 17:47:16: select `id`, `pid` from `goods_class` where `id` in (72)
+
+2020-11-19 17:47:16: select `id`, `pid` from `goods_class` where `pid` in (72)
+
+2020-11-19 17:47:16: select `id`, `pid` from `goods_class` where 0 = 1
+
+2020-11-19 17:47:17: select * from `goods` where (`is_index` = 1) and (`goods_status` = 1 and `goods_verify` = 1) and 0 = 1 limit 8
+
+2020-11-19 17:47:17: select * from `adv_position` where `ap_isuse` = 1 and `ap_name` = 'PC_首页商品列表左侧' limit 1
+
+2020-11-19 17:47:17: select * from `adv_position` where `ap_isuse` = 1 and `ap_name` = 'PC_首页商品列表底部' limit 1
+

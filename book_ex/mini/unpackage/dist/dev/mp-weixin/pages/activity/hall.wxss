@@ -1,0 +1,11 @@
+
+.page {
+	height: 100vh;
+}
+.cu-list.menu>.cu-item:after{
+	border-bottom:0;
+}
+.cu-list.menu>.cu-item.arrow:before{
+	color: #B2B2B2;
+}
+

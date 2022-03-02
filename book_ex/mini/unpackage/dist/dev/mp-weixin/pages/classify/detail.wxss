@@ -1,0 +1,8 @@
+
+.page {
+	height: 100vh;
+}
+.cu-list.menu-avatar>.cu-item:after{
+	border-bottom: 0px solid #ddd;
+}
+

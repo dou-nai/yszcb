@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/home/live",
+    "pages/home/livedetail",
+    "pages/activity/index",
+    "pages/activity/hall",
+    "pages/classify/index",
+    "pages/classify/detail",
+    "pages/classify/search",
+    "pages/classify/list",
+    "pages/classify/cate",
+    "pages/my/index",
+    "pages/my/setting",
+    "pages/my/update_pwd",
+    "pages/my/login",
+    "pages/my/register",
+    "pages/my/forget_pwd",
+    "pages/press/list",
+    "pages/press/detail",
+    "pages/notice/list",
+    "pages/notice/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarBackgroundColor": "#0081ff",
+    "navigationBarTitleText": "云书展",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx46c940ba5de1f3cd"
+  ],
+  "usingComponents": {
+    "cu-bar": "/colorui/components/cu-bar",
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

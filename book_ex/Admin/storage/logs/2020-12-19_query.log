@@ -1,0 +1,42 @@
+2020-12-19 20:17:33: select * from `users` where `id` = 1 limit 1
+
+2020-12-19 20:17:33: select * from `users` where `id` = 1 limit 1
+
+2020-12-19 20:17:33: select * from `users` where `id` = 1 limit 1
+
+2020-12-19 20:17:33: select * from `users` where `id` = 1 limit 1
+
+2020-12-19 20:17:33: select * from `users` where `id` = 1 limit 1
+
+2020-12-19 20:17:33: select * from `users` where `id` = 1 limit 1
+
+2020-12-19 20:17:33: select * from `users` where `id` = 1 limit 1
+
+2020-12-19 20:17:33: select * from `users` where `id` = 1 limit 1
+
+2020-12-19 20:17:33: select `roles`.*, `user_link_role`.`user_id` as `pivot_user_id`, `user_link_role`.`role_id` as `pivot_role_id` from `roles` inner join `user_link_role` on `roles`.`id` = `user_link_role`.`role_id` where `user_link_role`.`user_id` in (1)
+
+2020-12-19 20:17:33: select `roles`.*, `user_link_role`.`user_id` as `pivot_user_id`, `user_link_role`.`role_id` as `pivot_role_id` from `roles` inner join `user_link_role` on `roles`.`id` = `user_link_role`.`role_id` where `user_link_role`.`user_id` in (1)
+
+2020-12-19 20:17:33: select `roles`.*, `user_link_role`.`user_id` as `pivot_user_id`, `user_link_role`.`role_id` as `pivot_role_id` from `roles` inner join `user_link_role` on `roles`.`id` = `user_link_role`.`role_id` where `user_link_role`.`user_id` in (1)
+
+2020-12-19 20:17:33: select * from `roles` where `id` = 1 limit 1
+
+2020-12-19 20:17:33: select * from `roles` where `id` = 1 limit 1
+
+2020-12-19 20:17:33: select `hooks`.*, `role_link_hook`.`role_id` as `pivot_role_id`, `role_link_hook`.`hook_id` as `pivot_hook_id` from `hooks` inner join `role_link_hook` on `hooks`.`id` = `role_link_hook`.`hook_id` where `role_link_hook`.`role_id` in (1)
+
+2020-12-19 20:17:33: select `hooks`.*, `role_link_hook`.`role_id` as `pivot_role_id`, `role_link_hook`.`hook_id` as `pivot_hook_id` from `hooks` inner join `role_link_hook` on `hooks`.`id` = `role_link_hook`.`hook_id` where `role_link_hook`.`role_id` in (1)
+
+2020-12-19 20:17:33: select * from `users` where `users`.`id` = 1 limit 1
+
+2020-12-19 20:17:33: select `roles`.*, `user_link_role`.`user_id` as `pivot_user_id`, `user_link_role`.`role_id` as `pivot_role_id` from `roles` inner join `user_link_role` on `roles`.`id` = `user_link_role`.`role_id` where `user_link_role`.`user_id` = 1
+
+2020-12-19 20:17:33: select * from `roles` where `id` in (1)
+
+2020-12-19 20:17:33: select `menus`.*, `role_link_menu`.`role_id` as `pivot_role_id`, `role_link_menu`.`menu_id` as `pivot_menu_id`, `role_link_menu`.`commands` as `pivot_commands` from `menus` inner join `role_link_menu` on `menus`.`id` = `role_link_menu`.`menu_id` where `role_link_menu`.`role_id` = 1
+
+2020-12-19 20:17:33: select * from `menus` where `id` in (7, 8, 10, 18, 19, 20, 21, 22, 23, 33, 36, 37, 38, 39, 40, 46, 47, 48, 49, 52, 53, 54, 56, 58, 60, 63, 72, 73, 28, 29, 6, 12, 13, 16, 71, 70, 89, 90) and `is_type` = 0 order by `is_sort` asc
+
+2020-12-19 20:17:33: select * from `menus` where `id` in (7, 8, 10, 18, 19, 20, 21, 22, 23, 33, 36, 37, 38, 39, 40, 46, 47, 48, 49, 52, 53, 54, 56, 58, 60, 63, 72, 73, 28, 29, 6, 12, 13, 16, 71, 70, 89, 90) and `is_type` = 0 and `id` in (7, 8, 10, 18, 19, 20, 21, 22, 23, 33, 36, 37, 38, 39, 40, 46, 47, 48, 49, 52, 53, 54, 56, 58, 60, 63, 72, 73, 28, 29, 6, 12, 13, 16, 71, 70, 89, 90) order by `is_sort` asc
+

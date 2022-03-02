@@ -1,0 +1,102 @@
+2022-02-07 16:57:35: select * from `users` limit 1
+
+2022-02-07 16:57:35: select * from `address` limit 1
+
+2022-02-07 16:57:35: select * from `adv` limit 1
+
+2022-02-07 16:57:35: select * from `adv_position` limit 1
+
+2022-02-07 16:57:35: select * from `agreement` limit 1
+
+2022-02-07 16:57:35: select * from `area` limit 1
+
+2022-02-07 16:57:35: select * from `attr_spec` limit 1
+
+2022-02-07 16:57:35: select * from `cart` limit 1
+
+2022-02-07 16:57:35: select * from `cash_log` limit 1
+
+2022-02-07 16:57:35: select * from `chat_friend` limit 1
+
+2022-02-07 16:57:35: select * from `chat_msg` limit 1
+
+2022-02-07 16:57:35: select * from `commission_order` limit 1
+
+2022-02-07 16:57:35: select * from `config` limit 1
+
+2022-02-07 16:57:35: select * from `crontab_day` limit 1
+
+2022-02-07 16:57:35: select * from `crontab_month` limit 1
+
+2022-02-07 16:57:35: select * from `crontab_week` limit 1
+
+2022-02-07 16:57:35: select * from `favorites` limit 1
+
+2022-02-07 16:57:35: select * from `freight_template` limit 1
+
+2022-02-07 16:57:35: select * from `goods` limit 1
+
+2022-02-07 16:57:35: select * from `goods_brand` limit 1
+
+2022-02-07 16:57:35: select * from `goods_class` limit 1
+
+2022-02-07 16:57:35: select * from `goods_spec` limit 1
+
+2022-02-07 16:57:35: select * from `groupbuy` limit 1
+
+2022-02-07 16:57:35: select * from `groupbuy_user` limit 1
+
+2022-02-07 16:57:35: select * from `hooks` limit 1
+
+2022-02-07 16:57:35: select * from `integral_class` limit 1
+
+2022-02-07 16:57:35: select * from `integral_goods` limit 1
+
+2022-02-07 16:57:35: select * from `integral_order` limit 1
+
+2022-02-07 16:57:35: select * from `integral_order_goods` limit 1
+
+2022-02-07 16:57:36: select * from `menus` limit 1
+
+2022-02-07 16:57:36: select * from `money_log` limit 1
+
+2022-02-07 16:57:36: select * from `orders` limit 1
+
+2022-02-07 16:57:36: select * from `order_goods` limit 1
+
+2022-02-07 16:57:36: select * from `role_link_hook` limit 1
+
+2022-02-07 16:57:36: select * from `role_link_menu` limit 1
+
+2022-02-07 16:57:36: select * from `roles` limit 1
+
+2022-02-07 16:57:36: select * from `seckill` limit 1
+
+2022-02-07 16:57:36: select * from `seckill_goods` limit 1
+
+2022-02-07 16:57:36: select * from `shopping` limit 1
+
+2022-02-07 16:57:36: select * from `sms_log` limit 1
+
+2022-02-07 16:57:36: select * from `store` limit 1
+
+2022-02-07 16:57:36: select * from `store_adv` limit 1
+
+2022-02-07 16:57:36: select * from `store_class` limit 1
+
+2022-02-07 16:57:36: select * from `store_comment` limit 1
+
+2022-02-07 16:57:36: select * from `store_goods_class` limit 1
+
+2022-02-07 16:57:36: select * from `Store_User` limit 1
+
+2022-02-07 16:57:36: select * from `user_check` limit 1
+
+2022-02-07 16:57:36: select * from `user_link_role` limit 1
+
+2022-02-07 16:57:36: select * from `users` limit 1
+
+2022-02-07 16:57:36: select * from `vip_phone` limit 1
+
+2022-02-07 16:57:36: select * from `wechat_users` limit 1
+
